@@ -1,0 +1,257 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    font-size: 35px;
+    font-family: 'Pushster', cursive;
+    text-align: Left;
+    padding: 10px;
+    color: white;
+    background-color: #000;
+    padding-left: 50px;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: #000;
+    position: fixed;
+}
+
+#header nav {
+    margin-right: 50px;
+    margin-left: auto;
+}
+
+#header nav ul {
+    display: flex;
+    text-align: right;
+}
+
+#header nav ul li {
+    margin-right: 25px;
+    font-size: 20px;
+    padding-left: 4px;
+    padding-right: 4px;
+    /* padding-bottom: 10px; */
+}
+
+#header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Spline Sans', sans-serif;
+    padding: 10px;
+    transition: .7s;
+}
+
+#header nav ul li a:hover {
+    color: gray;
+}
+
+#temp1 {
+    height: 300px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: .7s;
+}
+
+#temp2 {
+    height: 300px;
+    margin-left: 30px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: .7s;
+}
+
+#temp2:hover {
+    height: 295px;
+    padding-right: 10px;
+}
+
+#temp1:hover {
+    height: 295px;
+}
+
+#htemp {
+    display: flex;
+    flex-direction: row;
+    width: 900px;
+    overflow-x: scroll;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+.center {
+    width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+}
+
+.one img {
+    height: 190px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 20px;
+}
+
+.one h2 {
+    padding: 10px;
+    padding-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    font-family: 'Rubik', sans-serif;
+    font-size: 28px;
+}
+
+.one {
+    background-color: rgba(255, 192, 203, 0.404);
+    padding: 20px;
+    width: 46%;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+    height: 390px;
+}
+
+.two img {
+    height: 190px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 20px;
+}
+
+.two h2 {
+    padding: 10px;
+    padding-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    font-family: 'Rubik', sans-serif;
+    font-size: 28px;
+}
+
+.two {
+    background-color: rgba(255, 255, 0, 0.171);
+    padding: 20px;
+    width: 46%;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+    margin: 20px;
+    cursor: pointer;
+    height: 390px;
+}
+
+.three img {
+    height: 190px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 20px;
+}
+
+.three h2 {
+    padding: 10px;
+    padding-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    font-family: 'Rubik', sans-serif;
+    font-size: 28px;
+}
+
+.three {
+    background-color: rgba(185, 41, 185, 0.151);
+    padding: 20px;
+    width: 46%;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+    margin: 20px;
+    cursor: pointer;
+    height: 390px;
+}
+
+.four img {
+    height: 190px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 20px;
+    font-size: 28px;
+}
+
+.four h2 {
+    padding: 10px;
+    padding-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    font-family: 'Rubik', sans-serif;
+}
+
+.four {
+    background-color: rgba(255, 166, 0, 0.116);
+    padding: 20px;
+    width: 46%;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+    margin: 20px;
+    cursor: pointer;
+    height: 390px;
+}
+
+.five img {
+    height: 190px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 20px;
+}
+
+.five h2 {
+    padding: 10px;
+    padding-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    font-family: 'Rubik', sans-serif;
+    font-size: 28px;
+}
+
+.five {
+    background-color: rgba(147, 224, 147, 0.253);
+    padding: 20px;
+    width: 46%;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+    height: 390px;
+}
