@@ -337,6 +337,12 @@ header {
     border-radius: 10px;
     border: 1px solid #ededed;
     margin-top: 30px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+#img2:hover {
+    height: 410px;
 }
 
 footer .top {
