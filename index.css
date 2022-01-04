@@ -14,6 +14,11 @@ header {
     padding-left: 50px;
 }
 
+#header i {
+    font-size: 20px;
+    color: white;
+}
+
 #header {
     display: flex;
     align-items: center;
@@ -379,4 +384,250 @@ footer {
 
 footer .top i:hover {
     font-size: 33px;
+}
+
+@media(max-width:500px) {
+    header {
+        font-size: 25px;
+    }
+    #header {
+        position: relative;
+        width: 100%;
+    }
+    #header #r1 {
+        display: none;
+    }
+    #header #bars {
+        display: block;
+    }
+    #htemp {
+        width: 360px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #htemp #temp1 {
+        height: 200px;
+    }
+    #htemp #temp2 {
+        height: 200px;
+    }
+    #bars {
+        padding-right: 0;
+        margin-right: -100;
+    }
+    .flow {
+        width: 330px;
+    }
+    .center {
+        width: 90%;
+        overflow: scroll;
+        display: inline-flex;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .center .one img {
+        height: 130px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .center .two img {
+        height: 130px;
+    }
+    .center .three img {
+        height: 130px;
+    }
+    .center .four img {
+        height: 130px;
+    }
+    .center .five img {
+        height: 130px;
+    }
+    .center .one h2 {
+        font-size: 20px;
+    }
+    .center .two h2 {
+        font-size: 20px;
+    }
+    .center .three h2 {
+        font-size: 20px;
+    }
+    .center .four h2 {
+        font-size: 20px;
+    }
+    .center .five h2 {
+        font-size: 20px;
+    }
+    .center .one {
+        height: 300px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        width: 200px;
+    }
+    .center .two {
+        height: 300px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        width: 200px;
+    }
+    .center .three {
+        height: 300px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        width: 200px;
+    }
+    .center .four {
+        height: 300px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        width: 200px;
+    }
+    .center .five {
+        height: 300px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        width: 200px;
+    }
+    #img2 {
+        height: 160px;
+    }
+    .middle {
+        width: 100%;
+    }
+    .middle .flow {
+        width: 300px;
+    }
+    #img2:hover {
+        height: 180px;
+    }
+}
+
+@media(max-width:360px) {
+    header {
+        font-size: 25px;
+    }
+    #header {
+        position: relative;
+        width: 100%;
+    }
+    #header #r1 {
+        display: none;
+    }
+    #header #bars {
+        display: block;
+        margin-right: 0;
+        padding-right: 0;
+        padding-left: 20px;
+        margin-left: 20px;
+    }
+    #htemp {
+        width: 320px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #htemp #temp1 {
+        height: 200px;
+    }
+    #htemp #temp2 {
+        height: 200px;
+    }
+    .flow {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .center {
+        width: 90%;
+        overflow: scroll;
+        display: inline-flex;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .center .one img {
+        height: 130px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .center .two img {
+        height: 130px;
+    }
+    .center .three img {
+        height: 130px;
+    }
+    .center .four img {
+        height: 130px;
+    }
+    .center .five img {
+        height: 130px;
+    }
+    .center .one h2 {
+        font-size: 20px;
+    }
+    .center .two h2 {
+        font-size: 20px;
+    }
+    .center .three h2 {
+        font-size: 20px;
+    }
+    .center .four h2 {
+        font-size: 20px;
+    }
+    .center .five h2 {
+        font-size: 20px;
+    }
+    .center .one {
+        height: 300px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        width: 200px;
+    }
+    .center .two {
+        height: 300px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        width: 200px;
+    }
+    .center .three {
+        height: 300px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        width: 200px;
+    }
+    .center .four {
+        height: 300px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        width: 200px;
+    }
+    .center .five {
+        height: 300px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        width: 200px;
+    }
+    #img2 {
+        height: 160px;
+    }
+    .middle {
+        width: 100%;
+    }
+    .middle .flow {
+        width: 300px;
+    }
+    #img2:hover {
+        height: 180px;
+    }
 }
