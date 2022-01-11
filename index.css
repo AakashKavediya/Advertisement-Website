@@ -391,7 +391,7 @@ footer .top i:hover {
         font-size: 25px;
     }
     #header {
-        position: relative;
+        position: fixed;
         width: 100%;
     }
     #header #r1 {
