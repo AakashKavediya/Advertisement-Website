@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Kanit', sans-serif;
+}
+
+p {
+    font-family: 'Dongle', sans-serif;
+    font-size: 25px;
+}

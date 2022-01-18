@@ -83,8 +83,20 @@
         h1 {
             font-size: 20px;
         }
+        form #row b {
+            width: 110px;
+            font-size: 14px;
+        }
+        form #row input {
+            width: 180px;
+            font-size: 15px;
+        }
+        form #row textarea {
+            width: 180px;
+            font-size: 15px;
+        }
         body {
-            padding: 10px;
+            padding: 5px;
             padding-top: 30px;
         }
     }
