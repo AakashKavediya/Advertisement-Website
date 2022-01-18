@@ -67,7 +67,7 @@
         font-family: 'Arimo', sans-serif;
     }
     
-    form #row button {
+    form button {
         background-image: radial-gradient(rgb(0, 191, 255), rgb(0, 191, 255));
         padding: 5px;
         padding-left: 15px;
